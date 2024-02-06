@@ -1,0 +1,13 @@
+.nav-item {
+    text-align: right;
+    font-size: medium;
+    margin-left: 20px;
+}
+
+.navbar-gradient {
+    background: linear-gradient(to right, rgba(106, 17, 203, 0.9), rgba(37, 117, 252, 0.9));
+}
+
+.active {
+    font-weight: 500;
+}
