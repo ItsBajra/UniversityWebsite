@@ -1,12 +1,10 @@
-#Riverdale University
-
-
-##Description:
+**Riverdale University**
 
 Riverdale University Website is a modern and user-friendly online platform designed and developed to provide students, faculty, and visitors with a seamless browsing experience. This README document offers an overview of the website project and outlines the roles and responsibilities of the group members involved.
 
 
-##Group Members:
+
+**Group Members:**
 
 Subarna Bajracharya (Lead)
 
@@ -19,7 +17,8 @@ Sujan Rai
 Nidaan Maharjan
 
 
-##Responsibilities:
+
+**Responsibilities:**
 
 Subarna Bajracharya (Lead):
  - Designer and Developer
@@ -39,7 +38,6 @@ Sujan Rai
 
 
 Nidaan Maharjan
-- Spectator
 
 
 Thank you for your interest in the Riverdale University Website project! We are committed to delivering a high-quality website that meets the needs of our users and reflects the excellence of Riverdale University.
