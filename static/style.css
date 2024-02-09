@@ -99,20 +99,20 @@ nav img {
 
 }
 
-nav .fa{
+nav .fa {
     display: none;
 }
 
 @media(max-width: 700px) {
-    .text-box h1{
+    .text-box h1 {
         font-size: 20px;
     }
 
-    .nav-links ul li{
+    .nav-links ul li {
         display: block;
     }
 
-    .nav-links{
+    .nav-links {
         position: absolute;
         background: #F84E45;
         height: 100vh;
@@ -124,7 +124,7 @@ nav .fa{
         transition: 1s;
     }
 
-    nav .fa{
+    nav .fa {
         display: block;
         color: #fff;
         margin: 10px;
@@ -132,7 +132,7 @@ nav .fa{
         cursor: pointer;
     }
 
-    .nav-links ul{
+    .nav-links ul {
         padding: 30px;
     }
 }
@@ -163,7 +163,7 @@ p {
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
-} 
+}
 
 .course-col {
     flex-basis: 31%;
@@ -182,11 +182,11 @@ h3 {
 }
 
 .course-col:hover {
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
 
-@media(max-width: 700px){
-    .row{
+@media(max-width: 700px) {
+    .row {
         flex-direction: column;
     }
 }
@@ -226,7 +226,7 @@ h3 {
 }
 
 .layer:hover {
-    background: rgba(150, 0, 0, 0.7);
+    background: rgba(216, 61, 61, 0.5);
 }
 
 .layer h3 {
@@ -243,7 +243,7 @@ h3 {
 }
 
 
-.layer:hover h3{
+.layer:hover h3 {
     bottom: 49%;
     opacity: 1;
 }
@@ -255,4 +255,395 @@ h3 {
     margin: auto;
     text-align: center;
     padding-top: 100px;
+}
+
+.facilities-col {
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.facilities-col img {
+    float: left;
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+    object-fit: cover;
+    padding-bottom: 18px;
+}
+
+.facilities-col p {
+    padding: 0;
+}
+
+.facilities-col h3 {
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+
+/* ----- contact us ----  */
+
+.contactus {
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../static/assets/uni.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 200px 0;
+}
+
+.contactus h1 {
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+@media(max-width: 700px) {
+    .contactus h1 {
+        font-size: 24px;
+    }
+}
+
+
+/* --- footer ----  */
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+
+}
+
+.footer h4 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.icons .fa {
+    color: #F84E45;
+    margin: 0 13px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+
+
+/* ---------- LOGIN AND REGISTRATION CSS ---------  */
+
+.container-main {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.1)), url(../static/assets/lecture.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.login-container {
+    position: relative;
+    top: 10px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    min-height: 80vh;
+    background: #fff;
+    width: 70vw;
+    height: 85vh;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.login-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(-45deg, #fff, #f78680);
+    z-index: 6;
+    transform: translateX(100%);
+    transition: 1s;
+}
+
+.signin-signup {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 5;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+    min-width: 238px;
+    padding: 0 10px;
+}
+
+form.sign-in-form {
+    opacity: 1;
+    transition: 0.5s ease-in-out;
+    transition-delay: 1s;
+}
+
+form.sign-up-form {
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+    transition-delay: 1s;
+}
+
+.title {
+    font-size: 35px;
+    color: #F84E45;
+    margin-bottom: 10px;
+}
+
+.input-field {
+    width: 100%;
+    height: 50px;
+    background: #f0f0f0;
+    margin: 10px 0;
+    border: 2px solid #F84E45;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.input-field i {
+    flex: 1;
+    text-align: center;
+    color: #666;
+    font-size: 18px;
+}
+
+.input-field input {
+    flex: 5;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.signin-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #666;
+    border: 1px solid #666;
+    border-radius: 50px;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.signin-btn:hover {
+    border: 1px solid #F84E45;
+    color: #fff;
+    background: #F84E45;
+    transition: 0.7s;
+}
+
+.social-text {
+    margin: 10px 0;
+    font-size: 13px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icon {
+    height: 45px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #444;
+    border: 1px solid #444;
+    border-radius: 50px;
+    margin: 0 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    border-color: #F84E45;
+    color: #F84E45;
+    transition: 0.7s;
+}
+
+.panels-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 35%;
+    min-width: 238px;
+    padding: 0 10px;
+    text-align: center;
+    z-index: 6;
+}
+
+.left-panel {
+    pointer-events: none;
+}
+
+.content {
+    color: #666;
+    transition: 1.1s ease-in-out;
+    transition-delay: 0.5s;
+}
+
+.panel h3 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.panel p {
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+.image {
+    width: 100%;
+    transition: 1.1s ease-in-out;
+    transition-delay: 0.4s;
+}
+
+.left-panel .image,
+.left-panel .content {
+    transform: translateX(-400%);
+}
+
+.right-panel .image,
+.right-panel .content {
+    transform: translateX(0);
+}
+
+.account-text {
+    display: none;
+}
+
+/* ------ Animation part -----  */
+
+.login-container.sign-up-mode::before {
+    transform: translateX(0);
+}
+
+.login-container.sign-up-mode .right-panel .image,
+.login-container.sign-up-mode .right-panel .content {
+    transform: translateX(400%);
+}
+
+.login-container.sign-up-mode .left-panel .image,
+.login-container.sign-up-mode .left-panel .content {
+    transform: translateX(0);
+}
+
+.login-container.login-container.sign-up-mode form.sign-in-form {
+    opacity: 0;
+}
+
+.login-container.login-container.sign-up-mode form.sign-up-form {
+    opacity: 1;
+}
+
+.login-container.login-container.sign-up-mode .right-panel {
+    pointer-events: none;
+}
+
+.login-container.login-container.sign-up-mode .left-panel {
+    pointer-events: all;
+}
+
+
+/* ----- Responsive -----  */
+
+@media (max-width:779px) {
+    .login-container {
+        width: 100vw;
+        height: 100vh;
+    }
+}
+
+@media (max-width:635px) {
+    .login-container::before {
+        display: none;
+    }
+
+    form {
+        width: 80%;
+    }
+
+    form.sign-up-form {
+        display: none;
+    }
+
+    .login-container.sign-up-mode2 form.sign-up-form {
+        display: flex;
+        opacity: 1;
+    }
+
+    .login-container.sign-up-mode2 form.sign-in-form {
+        display: none;
+    }
+
+    .panels-container {
+        display: none;
+    }
+
+    .account-text {
+        display: initial;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width:320px) {
+    form {
+        width: 90%;
+    }
+}
+
+
+
+/* ---- ABout us -----  */
+
+.container-aboutus {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.1)), url(../static/assets/basketballindoor.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
