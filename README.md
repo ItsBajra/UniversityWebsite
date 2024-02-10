@@ -21,24 +21,24 @@ Nidaan Maharjan
 
 ## Responsibilities:
 
-Subarna Bajracharya (Lead):
+`Subarna Bajracharya (Lead)`:
  - Designer and Developer
  - Git Manager
 
 
-Manoj Shrestha:
+`Manoj Shrestha`:
  - Documentation Manager
 
 
-Shisir Itani:
+`Shisir Itani`:
 - Content Writer
 
 
-Sujan Rai
+`Sujan Rai`:
 - Content Writer
 
 
-Nidaan Maharjan
-- 
+`Nidaan Maharjan`:
+- No work assigned
 
 Thank you for your interest in the Riverdale University Website project! We are committed to delivering a high-quality website that meets the needs of our users and reflects the excellence of Riverdale University.
