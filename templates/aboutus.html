@@ -14,17 +14,17 @@
 <body>
     <div class="container-aboutus">
         <nav>
-            <a href="index.html"> <img src='../static/assets/logo.png'> </a>
+            <a href="{{ url_for('home')}}"> <img src='../static/assets/logo.png'> </a>
             <div class="nav-links" id="navLinks">
                 <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="aboutus.html">ABOUT US</a></li>
-                    <li><a href="course.html">COURSES</a></li>
-                    <li><a href="contactus.html">CONTACT US</a></li>
+                    <li><a href="{{ url_for('home') }}">HOME</a></li>
+                    <li><a href="{{ url_for('aboutus') }}">ABOUT US</a></li>
+                    <li><a href="{{ url_for('courses') }}">COURSES</a></li>
+                    <li><a href="{{ url_for('contactus') }}">CONTACT US</a></li>
                 </ul>
             </div>
-            <a href="login.html" class="Visit-btn">SIGN IN</a>
+            <a href="{{ url_for('login') }}" class="Visit-btn">SIGN IN</a>
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
         <h1>About Us</h1>
@@ -34,14 +34,17 @@
         <div class="row">
             <div class="about-col">
                 <h1>Riverdale University: World's Finest in Education</h1>
-                <p>Welcome to Riverdale University, a prestigious institution dedicated to academic excellence, innovation, and community engagement. Since our establishment in 1950, we have been committed to providing students with a transformative education experience that prepares them for success in a rapidly evolving world.</p>
+                <p>Welcome to Riverdale University, a prestigious institution dedicated to academic excellence,
+                    innovation, and community engagement. Since our establishment in 2010, we have been committed to
+                    providing students with a transformative education experience that prepares them for success in a
+                    rapidly evolving world.</p>
                 <a href="https://maps.app.goo.gl/u44RSRgxZ8oAgqRb8" target="_blank" class="signin-btn">VISIT US</a>
             </div>
             <div class="about-col"></div>
             <video width="640" height="380" autoplay loop>
                 <source src="../static/assets/droneshot.mp4" type="video/mp4">
                 Your browser does not support the video tag.
-              </video>
+            </video>
         </div>
     </section>
 
